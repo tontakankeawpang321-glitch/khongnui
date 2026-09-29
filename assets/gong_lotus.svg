@@ -1,0 +1,147 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="100%" height="100%">
+  <defs>
+    <!-- Dark Bronze Gong Face Gradient -->
+    <radialGradient id="gongFaceGrad" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#3d2a1d" />
+      <stop offset="45%" stop-color="#2a1c13" />
+      <stop offset="85%" stop-color="#1c120c" />
+      <stop offset="100%" stop-color="#0f0906" />
+    </radialGradient>
+
+    <!-- Outer Rim Bronze Texture Gradient -->
+    <radialGradient id="rimGrad" cx="35%" cy="35%" r="65%">
+      <stop offset="0%" stop-color="#704d2e" />
+      <stop offset="50%" stop-color="#3e2413" />
+      <stop offset="90%" stop-color="#1f1109" />
+      <stop offset="100%" stop-color="#0a0502" />
+    </radialGradient>
+
+    <!-- Lotus Petal Ivory-Gold Gradient -->
+    <linearGradient id="petalGrad" x1="0%" y1="100%" x2="0%" y2="0%">
+      <stop offset="0%" stop-color="#b8935c" />
+      <stop offset="30%" stop-color="#e8cf9f" />
+      <stop offset="75%" stop-color="#fdf1d2" />
+      <stop offset="100%" stop-color="#ecd19d" />
+    </linearGradient>
+
+    <!-- Center Boss (ปุ่มฆ้อง) Metallic Gradient -->
+    <radialGradient id="bossGrad" cx="38%" cy="32%" r="68%">
+      <stop offset="0%" stop-color="#6e4627" />
+      <stop offset="25%" stop-color="#4a2a14" />
+      <stop offset="70%" stop-color="#281408" />
+      <stop offset="100%" stop-color="#140904" />
+    </radialGradient>
+
+    <!-- Drop Shadow Filter -->
+    <filter id="gongShadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="6" stdDeviation="6" flood-color="#000000" flood-opacity="0.85" />
+    </filter>
+  </defs>
+
+  <!-- Outer Gong Rim -->
+  <circle cx="200" cy="200" r="192" fill="url(#rimGrad)" filter="url(#gongShadow)" stroke="#4a2e18" stroke-width="3" />
+  
+  <!-- Outer Rim Fine Inscriptions -->
+  <circle cx="200" cy="200" r="186" fill="none" stroke="#684729" stroke-width="1.5" stroke-dasharray="3 3" opacity="0.6" />
+  <circle cx="200" cy="200" r="182" fill="none" stroke="#2a1a10" stroke-width="1" />
+  
+  <!-- Dark Gong Body Surface -->
+  <circle cx="200" cy="200" r="178" fill="url(#gongFaceGrad)" />
+  <circle cx="200" cy="200" r="175" fill="none" stroke="#523922" stroke-width="1.2" opacity="0.5" />
+  <circle cx="200" cy="200" r="150" fill="none" stroke="#412c1b" stroke-width="1" stroke-dasharray="2 4" opacity="0.4" />
+
+  <!-- 8 Traditional Lotus Petals & Ornate Spire Vines -->
+  <g transform="translate(200, 200)">
+    <!-- 8 Radiating Ornate Spire Vines (ลายกระจัง/กนก ปลายกลีบ) reaching towards the rim -->
+    <g stroke="#d5b880" stroke-width="1.5" fill="none" opacity="0.85">
+      <!-- 0 deg (Top) -->
+      <path d="M 0 -85 L 0 -155 M -6 -115 L 0 -130 L 6 -115 M -4 -138 L 0 -148 L 4 -138" />
+      <circle cx="0" cy="-155" r="2.5" fill="#e8cf9f" />
+
+      <!-- 45 deg -->
+      <g transform="rotate(45)">
+        <path d="M 0 -85 L 0 -155 M -6 -115 L 0 -130 L 6 -115 M -4 -138 L 0 -148 L 4 -138" />
+        <circle cx="0" cy="-155" r="2.5" fill="#e8cf9f" />
+      </g>
+
+      <!-- 90 deg (Right) -->
+      <g transform="rotate(90)">
+        <path d="M 0 -85 L 0 -155 M -6 -115 L 0 -130 L 6 -115 M -4 -138 L 0 -148 L 4 -138" />
+        <circle cx="0" cy="-155" r="2.5" fill="#e8cf9f" />
+      </g>
+
+      <!-- 135 deg -->
+      <g transform="rotate(135)">
+        <path d="M 0 -85 L 0 -155 M -6 -115 L 0 -130 L 6 -115 M -4 -138 L 0 -148 L 4 -138" />
+        <circle cx="0" cy="-155" r="2.5" fill="#e8cf9f" />
+      </g>
+
+      <!-- 180 deg (Bottom) -->
+      <g transform="rotate(180)">
+        <path d="M 0 -85 L 0 -155 M -6 -115 L 0 -130 L 6 -115 M -4 -138 L 0 -148 L 4 -138" />
+        <circle cx="0" cy="-155" r="2.5" fill="#e8cf9f" />
+      </g>
+
+      <!-- 225 deg -->
+      <g transform="rotate(225)">
+        <path d="M 0 -85 L 0 -155 M -6 -115 L 0 -130 L 6 -115 M -4 -138 L 0 -148 L 4 -138" />
+        <circle cx="0" cy="-155" r="2.5" fill="#e8cf9f" />
+      </g>
+
+      <!-- 270 deg (Left) -->
+      <g transform="rotate(270)">
+        <path d="M 0 -85 L 0 -155 M -6 -115 L 0 -130 L 6 -115 M -4 -138 L 0 -148 L 4 -138" />
+        <circle cx="0" cy="-155" r="2.5" fill="#e8cf9f" />
+      </g>
+
+      <!-- 315 deg -->
+      <g transform="rotate(315)">
+        <path d="M 0 -85 L 0 -155 M -6 -115 L 0 -130 L 6 -115 M -4 -138 L 0 -148 L 4 -138" />
+        <circle cx="0" cy="-155" r="2.5" fill="#e8cf9f" />
+      </g>
+    </g>
+
+    <!-- 8 Broad Lotus Petals (กลีบบัว 8 กลีบสีงาช้างทองตามรูป) -->
+    <g fill="url(#petalGrad)" stroke="#a1763e" stroke-width="1.2">
+      <!-- Petal Template defined once and rotated 8 times -->
+      <!-- Top (0 deg) -->
+      <path d="M 0 -45 C -25 -52, -28 -72, 0 -92 C 28 -72, 25 -52, 0 -45 Z" />
+      <!-- 45 deg -->
+      <path transform="rotate(45)" d="M 0 -45 C -25 -52, -28 -72, 0 -92 C 28 -72, 25 -52, 0 -45 Z" />
+      <!-- 90 deg -->
+      <path transform="rotate(90)" d="M 0 -45 C -25 -52, -28 -72, 0 -92 C 28 -72, 25 -52, 0 -45 Z" />
+      <!-- 135 deg -->
+      <path transform="rotate(135)" d="M 0 -45 C -25 -52, -28 -72, 0 -92 C 28 -72, 25 -52, 0 -45 Z" />
+      <!-- 180 deg -->
+      <path transform="rotate(180)" d="M 0 -45 C -25 -52, -28 -72, 0 -92 C 28 -72, 25 -52, 0 -45 Z" />
+      <!-- 225 deg -->
+      <path transform="rotate(225)" d="M 0 -45 C -25 -52, -28 -72, 0 -92 C 28 -72, 25 -52, 0 -45 Z" />
+      <!-- 270 deg -->
+      <path transform="rotate(270)" d="M 0 -45 C -25 -52, -28 -72, 0 -92 C 28 -72, 25 -52, 0 -45 Z" />
+      <!-- 315 deg -->
+      <path transform="rotate(315)" d="M 0 -45 C -25 -52, -28 -72, 0 -92 C 28 -72, 25 -52, 0 -45 Z" />
+    </g>
+
+    <!-- Inner Petal Rib Veins -->
+    <g stroke="#916a34" stroke-width="1" fill="none" opacity="0.6">
+      <path d="M 0 -48 L 0 -86" />
+      <path transform="rotate(45)" d="M 0 -48 L 0 -86" />
+      <path transform="rotate(90)" d="M 0 -48 L 0 -86" />
+      <path transform="rotate(135)" d="M 0 -48 L 0 -86" />
+      <path transform="rotate(180)" d="M 0 -48 L 0 -86" />
+      <path transform="rotate(225)" d="M 0 -48 L 0 -86" />
+      <path transform="rotate(270)" d="M 0 -48 L 0 -86" />
+      <path transform="rotate(315)" d="M 0 -48 L 0 -86" />
+    </g>
+
+    <!-- Center Boss Ring Base -->
+    <circle cx="0" cy="0" r="54" fill="#1b1008" stroke="#d5b880" stroke-width="1.8" />
+    <circle cx="0" cy="0" r="51" fill="none" stroke="#684729" stroke-width="1" stroke-dasharray="2 2" />
+
+    <!-- Center Raised Dome (ปุ่มฆ้อง / ลูกมะนาว) -->
+    <circle cx="0" cy="0" r="48" fill="url(#bossGrad)" stroke="#52351c" stroke-width="1.5" />
+    
+    <!-- Spherical Highlight Crescent -->
+    <ellipse cx="-12" cy="-14" rx="18" ry="12" fill="#ffffff" opacity="0.12" transform="rotate(-20 -12 -14)" />
+  </g>
+</svg>
